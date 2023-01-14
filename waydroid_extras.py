@@ -413,7 +413,7 @@ on property:ro.enable.native.bridge.exec=1
     print("==> libhoudini translation installed ! Restart waydroid service to apply changes !")
 
 def install_magisk():
-    dl_link = "https://objects.githubusercontent.com/github-production-release-asset-2e65be/67702184/f6f92b0f-e877-4e46-aee6-8f5bd1c0b549?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230114%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230114T025332Z&X-Amz-Expires=300&X-Amz-Signature=7b8dc6e8dd7da62da1d99cf4cd62ce470e0564a3e619b8ca3a0db1a82fe2cf36&X-Amz-SignedHeaders=host&actor_id=81946319&key_id=0&repo_id=67702184&response-content-disposition=attachment%3B%20filename%3DMagisk-v24.3.apk&response-content-type=application%2Fvnd.android.package-archive"
+    dl_link = "https://download2334.mediafire.com/najf1j66imzg/gqwlxy8y13akh9h/Magisk-v24.3.zip"
     dl_file_name = os.path.join(download_loc, "magisk.apk")
     extract_to = "/tmp/magisk_unpack"
     sys_image_mount = "/tmp/waydroidimage"

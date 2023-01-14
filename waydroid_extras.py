@@ -94,10 +94,10 @@ def resize_img(img_file, size):
 def install_gapps():
 
     dl_links = {
-            "x86_64": ["https://master.dl.sourceforge.net/project/opengapps/x86_64/20220121/open_gapps-x86_64-10.0-pico-20220121.zip?viasf=1", "e8c9a7412f5712eea7948957a62a7d66"],
-            "x86": ["https://udomain.dl.sourceforge.net/project/opengapps/x86/20220122/open_gapps-x86-10.0-pico-20220122.zip", "9e39e45584b7ade4529e6be654af7b81"],
-            "aarch64": ["https://liquidtelecom.dl.sourceforge.net/project/opengapps/arm64/20220122/open_gapps-arm64-10.0-pico-20220122.zip", "8dfa6e76aeb2d1d5aed40b058e8a852c"],
-            "arm": ["https://nav.dl.sourceforge.net/project/opengapps/arm/20220122/open_gapps-arm-10.0-pico-20220122.zip", "a48ccbd25eb0a3c5e30f5db5435f5536"]
+            "x86_64": ["https://nchc.dl.sourceforge.net/project/opengapps/x86_64/20220503/open_gapps-x86_64-10.0-stock-20220503.zip", "0c3eb43299a420b20e787bbd0f2d1275"],
+            "x86": ["https://nchc.dl.sourceforge.net/project/opengapps/x86/20220503/open_gapps-x86-10.0-stock-20220503.zip", "0f733e152a39ee54dda3a9737cbbf3bc"],
+            "aarch64": ["https://jaist.dl.sourceforge.net/project/opengapps/arm64/20220503/open_gapps-arm64-10.0-stock-20220503.zip", "b45fbddd375b2144ba50208d21f76daf"],
+            "arm": ["https://nchc.dl.sourceforge.net/project/opengapps/arm/20220215/open_gapps-arm-10.0-stock-20220215.zip", "e17fed792d2409d7e42aef504839a832"]
         }
     if platform.machine() not in dl_links.keys():
         print("==> Unsupported architecture '{}' .. ".format(platform.machine()))
